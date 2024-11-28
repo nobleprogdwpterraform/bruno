@@ -11,5 +11,6 @@ jobs:
         scan-type: 'fs'
         severity: 'HIGH,CRITICAL,MEDIUM,LOW'
         ignore-unfixed: false
-        format: 'table'
+        format: 'sarif'
+        output: 'trivy-results.sarif'
         exit-code: 1
