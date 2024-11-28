@@ -12,5 +12,4 @@ jobs:
         severity: 'HIGH,CRITICAL'
         ignore-unfixed: false
         format: 'table'
-        output: 'trivy-report.txt'
         exit-code: 0
