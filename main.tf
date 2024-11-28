@@ -21,5 +21,5 @@ resource "aws_s3_bucket" "foo-bucket" {
       }
     }
   }
-  acl           = "public-read" # this is non-compliant
+  acl           = "private" # this is compliant
 }
